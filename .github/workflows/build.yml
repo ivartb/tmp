@@ -23,7 +23,7 @@ jobs:
       - uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
-      - name: fail
+      - name: pass
         run: |
-              chmod +x fail.sh
-              ./fail.sh
+              chmod +x pass.sh
+              ./pass.sh
