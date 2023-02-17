@@ -24,4 +24,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: fail
-        run: ./fail.sh
+        run: |
+              chmod +x fail.sh
+              ./fail.sh
